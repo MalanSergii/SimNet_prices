@@ -1,0 +1,93 @@
+ul, li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h1,h2,h3,h4,h5, p{
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.container{
+  padding: 0 15px;
+}
+
+
+.nav__menu{
+  display: flex;
+  justify-content:space-between;
+  padding-top:20px;
+  margin-bottom: 10px;
+}
+
+.nav__button{
+  border:none ;
+  background-color: transparent;
+  cursor: pointer;
+}
+.wraper{
+
+  background-color: antiquewhite;
+}
+.phones__list{
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 40px;
+} */
+.list__item{
+  padding: 10px 0;
+}
+.list__item:hover{
+  color: grey;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 15px;;
+  color:#0070bc;
+}
+.card{
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+
+}
+.card__tariffs{
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px ;
+}
+
+.card__info{
+  display: flex;
+  justify-content:space-between;
+  padding: 5px;
+}
+.card__info:first-child{
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card__button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border:none;
+  background-color:teal;
+  color: aliceblue;
+  border-radius: 10px;
+  width: 130px;
+  height: 35px;
+  cursor: pointer;
+}

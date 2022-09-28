@@ -6,12 +6,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./slick/slick.css" />
+    <link rel="stylesheet" href="./slick/slick-theme.scss" />
     <title>SimNet prices</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header>
+      <div class="container">
+        <nav class="nav__menu">
+          <a href="./index.html"
+            ><img class="nav__img" src="./pictures/SimNetLogo.png" alt="logo" width="100"
+          /></a>
+          <button class="nav__button" type="button">
+            <img src="./pictures/menu-mobile.png" alt="sandvich-menu" />
+          </button>
+        </nav>
+      </div>
+      <!-- phone links -->
+      <div class="wraper">
+        <div class="container">
+          <ul class="phones__list">
+            <li><a class="list__item" href="tel:">(098)6-4444-71</a></li>
+            <li><a class="list__item" href="tel:">(066)6-4444-70</a></li>
+            <li><a class="list__item" href="tel:">(044)224-84-34</a></li>
+            <li><a class="list__item" href="tel:">(093)6-4444-70</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- tariffs -->
+      <section class="section">
+        <div class="container">
+          <h3 class="title">ТАРИФЫ ДЛЯ ДОМА</h3>
+          <div class="cards">
+            <div class="card">
+              <div class="card__tariffs">
+                <div class="card__info">
+                  <span class="card__price">Безлимит 149</span>
+                </div>
+                <div class="card__info">
+                  Скорость Мир, Мбит/с <span class="card__price">60</span>
+                </div>
+                <div class="card__info">
+                  Скорость Украина, Мбит/с <span class="card__price">100</span>
+                </div>
+                <div class="card__info">
+                  Внешний IP
+                  <span class="card__price">50 грн/мес</span>
+                </div>
+                <div class="card__info">Подключение <span class="card__price">0 грн</span></div>
+                <div class="card__info">Стоимость/мес <span class="card__price">149 грн</span></div>
+              </div>
+              <button type="button" class="card__button">Заказать</button>
+            </div>
+            <div class="card">
+              <div class="card__tariffs">
+                <div class="card__info">
+                  <span class="card__price">Безлимит 169</span>
+                </div>
+                <div class="card__info">
+                  Скорость Мир, Мбит/с <span class="card__price">100</span>
+                </div>
+                <div class="card__info">
+                  Скорость Украина, Мбит/с <span class="card__price">100</span>
+                </div>
+                <div class="card__info">
+                  Внешний IP
+                  <span class="card__price">50 грн/мес</span>
+                </div>
+                <div class="card__info">Подключение <span class="card__price">0 грн</span></div>
+                <div class="card__info">Стоимость/мес <span class="card__price">169 грн</span></div>
+              </div>
+              <button type="button" class="card__button">Заказать</button>
+            </div>
+            <div class="card">
+              <div class="card__tariffs">
+                <div class="card__info">
+                  <span class="card__price">Интернет +ТВ</span>
+                </div>
+                <div class="card__info">
+                  Скорость Мир, Мбит/с <span class="card__price">100</span>
+                </div>
+                <div class="card__info">
+                  Скорость Украина, Мбит/с <span class="card__price">100</span>
+                </div>
+                <div class="card__info">
+                  Внешний IP
+                  <span class="card__price">50 грн/мес</span>
+                </div>
+                <div class="card__info">Подключение <span class="card__price">100 грн</span></div>
+                <div class="card__info">Стоимость/мес <span class="card__price">220 грн</span></div>
+              </div>
+              <button type="button" class="card__button">Заказать</button>
+            </div>
+            <div class="card">
+              <div class="card__tariffs">
+                <div class="card__info">
+                  <span class="card__price">Гигабит *</span>
+                </div>
+                <div class="card__info">
+                  Скорость Мир, Мбит/с <span class="card__price">до 1000</span>
+                </div>
+                <div class="card__info">
+                  Скорость Украина, Мбит/с <span class="card__price">до 1000</span>
+                </div>
+                <div class="card__info">
+                  Внешний IP
+                  <span class="card__price">по запросу</span>
+                </div>
+                <div class="card__info">Подключение <span class="card__price">200 грн</span></div>
+                <div class="card__info">Стоимость/мес <span class="card__price">250 грн</span></div>
+              </div>
+              <button type="button" class="card__button">Заказать</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Other info -->
+      <section class="section">
+        <div class="container">
+          <h3 class="title">OTHER INFO</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odit doloremque
+            deserunt non vero quae corporis unde facilis, quidem saepe optio mollitia, consectetur
+            incidunt eum quos. Ipsam molestiae quis, omnis similique asperiores voluptatum alias
+            eaque eligendi earum nam autem dolor, accusamus, fugiat hic vel id tenetur deleniti
+            repellat! Commodi nobis assumenda sit laudantium modi atque suscipit repudiandae id nemo
+            minus, nulla quaerat officiis facere nisi.
+          </p>
+        </div>
+      </section>
+    </main>
     <footer></footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.slim.js"
+      integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./slick/slick.min.js"></script>
     <script src="./js/index.js"></script>
   </body>
 </html>
