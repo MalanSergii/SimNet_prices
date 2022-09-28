@@ -41,7 +41,7 @@ a{
   font-size: 13px;
   font-weight: 500;
   margin-bottom: 40px;
-} */
+} 
 .list__item{
   padding: 10px 0;
 }
@@ -54,7 +54,7 @@ a{
   margin-bottom: 15px;;
   color:#0070bc;
 }
-.card{
+.cards{
   margin-right: auto;
   margin-left: auto;
   width: 300px;

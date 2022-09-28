@@ -1,7 +1,9 @@
-// $(function () {
-//   $('.cards').slick({
-//     // setting-name: setting-value
-//     // arrows: false,
-//     // dots: true,
-//   });
-// });
+$(function () {
+  $('.cards').slick({
+    dots: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  });
+});
