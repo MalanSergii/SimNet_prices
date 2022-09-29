@@ -1,6 +1,6 @@
 $(function () {
   $('.cards').slick({
-    arrows: false,
+    // arrows: false,
     dots: true,
     slidesToShow: 1,
     slidesToScroll: 1,
